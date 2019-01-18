@@ -14,20 +14,18 @@ h1 {
   font-size: 16min;
 }
 .boxy {
-  background-color: #dbf0ff;
+  
   padding: .5em;
   display: block;
   float: center;
   min-width: 200px;
-  margin: auto;
-  border-radius: 73px 73px 73px 73px;
-  -moz-border-radius: 73px 73px 73px 73px;
-  -webkit-border-radius: 73px 73px 73px 73px;
+  margin: 1em;
+  
 }
-#con {
-}
+
 button:hover {
-  border-radius: 70%;
+ background-color: #fbffe5;
+ color: black;
 }
 .spinny {
   margin: auto;
@@ -50,5 +48,6 @@ button:hover {
   font-family: 'Patrick Hand SC', cursive;
 }
 .btn-info:hover {
-  background: #84313d;
+  background: #fbffe5;
+  color: white;
 }
