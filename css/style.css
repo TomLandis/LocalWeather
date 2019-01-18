@@ -5,13 +5,13 @@ body {
   background-color: #dae2ef;
   font-family: 'Patrick Hand SC', cursive;
   transition: all 0.4 ease;
-  font-size: 8vw;
+  font-size: 1.4em;
 }
 .btn {
-  font-size: 3vh;
+  font-size: 1.5em;
 }
 h1 {
-  font-size: 16min;
+  font-size: 2em;
 }
 .boxy {
   
@@ -27,16 +27,7 @@ button:hover {
  background-color: #fbffe5;
  color: black;
 }
-.spinny {
-  margin: auto;
-  width: 50px;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-  transition: transform .8s ease-in-out;
-}
-.spinny:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
+
 .btn-primary {
   background: #214451;
   border: 0px;
@@ -47,7 +38,7 @@ button:hover {
   border: 0px;
   font-family: 'Patrick Hand SC', cursive;
 }
-.btn-info:hover {
+.btn-info:hover, .btn-primary:hover {
   background: #fbffe5;
   color: black;
 }
